@@ -404,7 +404,7 @@ Use Git branches for features and pull requests for review.
 
 12. License & acknowledgements
 
-License: MIT (copy the MIT text into LICENSE).
+MIT --Standard Licence
 
 Acknowledgements : John H. Conway for the Doomsday Algorithm; standard C++ library for conventional utilities.
 
