@@ -5,8 +5,16 @@
 A practical C++ project that uses **John Conway’s Doomsday Algorithm** and **calendar mathematics** to determine the day of the week for any given date.  
 It also computes **date differences**, useful for aptitude exams like **CAT**, **GATE**, or campus placements.  
 ![Dr DOOM](https://github.com/user-attachments/assets/451a6e13-a5fd-47e2-8a97-331423edd8ce)
+<img width="1431" height="935" alt="Screenshot 2025-11-09 002603" src="https://github.com/user-attachments/assets/95849d76-dae2-4dd0-8066-f74eafd45a5f" />
 
 ---
+
+Website : https://690f90d4830685bdc68ebb95--musical-moonbeam-67498d.netlify.app/
+
+
+
+
+
 
 ## 🚀 Features
 - Predicts the weekday for any date between 1600–2400.
