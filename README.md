@@ -275,6 +275,7 @@ doomsday.exe
 If you prefer a Makefile, run make after opening the repository (a simple Makefile target compiles src/*.cpp).
 
 7. Usage examples
+
 Example 1 — Basic weekday query
 Enter date (day month year): 14 3 2032
 Output:
