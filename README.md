@@ -27,26 +27,30 @@ From this anchor, it determines the weekday for any date.
 ## ⚙️ Project Structure
 
 Doomsday-Date-Predictor and Aptitude Solver/
-│
+Doomsday-Date-Predictor/
 ├── src/
-│   ├── main.cpp                    # Entry point
-│   ├── doomsday.cpp                # Core algorithm implementation
-│   ├── date_utils.cpp              # Mathematical date utilities
+│   ├── main.cpp              # CLI and user interaction
+│   ├── doomsday.cpp          # Doomsday algorithm implementation
+│   ├── date_utils.cpp        # date arithmetic and helpers
 │
 ├── include/
-│   ├── doomsday.h                  # Header for Doomsday functions
-│   ├── date_utils.h                # Header for Date utility functions
+│   ├── doomsday.h
+│   ├── date_utils.h
 │
 ├── tests/
-│   ├── test_cases.cpp              # Unit tests for validation
+│   ├── test_cases.cpp        # simple unit tests / assertions
 │
 ├── docs/
-│   ├── README.md                   # Project documentation (GitHub)
-│   ├── algorithm_explanation.md    # Stepwise Doomsday math explanation
+│   ├── algorithm_explanation.md
+│   ├── user_manual.md
 │
-├── Makefile                        # For compiling on Linux/macOS
-├── doomsday_project.sln            # Visual Studio project (optional)
-└── LICENSE
+├── examples/
+│   ├── example_input.txt
+│
+├── Makefile
+├── README.md                 # (this file)
+├── LICENSE
+
 
 
 ## PROJECT OVERVIEW
