@@ -82,15 +82,13 @@ Days before/after a given date (like +100 days logic).
 ✅ Robust input validation.
 ✅ Structured for scalability and documentation.
 
-Doomsday-Date-Predictor/
+```Doomsday-Date-Predictor/
 ├── src/ # Source files
 ├── include/ # Header files
 ├── tests/ # Test cases
 ├── docs/ # Documentation
 └── Makefile # Build instructions
-
-
----
+```
 
 ## 🧩 How to Compile & Run
 
@@ -128,12 +126,12 @@ Output:
 26/1/2025 falls on a Sunday.
 
 
-Compact description:
+## Compact description:
 A C++ command-line tool that uses John Conway’s Doomsday Algorithm and robust calendar arithmetic to compute the day of the week for any Gregorian date, together with complementary date utilities (date difference, add/subtract days, leap-year analysis). Built as a modular, testable codebase suitable for academic demonstration and extension to GUI/web interfaces.
 
-Table of Contents
+#Table of Contents
 
-Project motivation
+```Project motivation
 
 Key features
 
@@ -158,7 +156,7 @@ Contribution & coding standards
 License & acknowledgements
 
 Contact
-
+```
 1. Project motivation
 
 During aptitude tests and many competitive exams, date-based problems test a candidate’s logical reasoning and modular arithmetic skills. This project packages the Doomsday Algorithm into a developer-friendly tool so students can:
@@ -197,16 +195,41 @@ Inputs are expected as valid Gregorian dates; program performs validation and re
 
 Time-of-day and timezone handling are out of scope (the tool is date-only).
 
+4. Repository layout :
+```Doomsday-Date-Predictor/
+├── src/
+│   ├── main.cpp              # CLI and user interaction
+│   ├── doomsday.cpp          # Doomsday algorithm implementation
+│   ├── date_utils.cpp        # date arithmetic and helpers
+│
+├── include/
+│   ├── doomsday.h
+│   ├── date_utils.h
+│
+├── tests/
+│   ├── test_cases.cpp        # simple unit tests / assertions
+│
+├── docs/
+│   ├── algorithm_explanation.md
+│   ├── user_manual.md
+│
+├── examples/
+│   ├── example_input.txt
+│
+├── Makefile
+├── README.md                 # (this file)
+├── LICENSE
+```
 
 
 
-Further analysis:
+4.(a) Further analysis:
 
 Enter days to add/subtract: +100
 📆 New date: 6/5/2025 (Tuesday)
 
 
-📘 Future Enhancements
+4.(b) 📘 Future Enhancements
 
 GUI version using Qt or Python Flask.
 
@@ -216,7 +239,7 @@ Integration into competitive exam practice apps.
 
 
 
-Technology stack & dependencies
+5. Technology stack & dependencies
 
 Language: C++ (11 or later) — portable, efficient, and suitable for systems demos.
 
@@ -226,8 +249,9 @@ No third-party libraries required for the core functionality; standard library o
 
 Optional (for tests): a lightweight test driver or C++ test framework (e.g., Catch2) can be added later.
 
+
 6. Build & run (step-by-step)
-Linux / macOS
+```Linux / macOS
 
 Open a terminal in the repository root.
 
@@ -246,7 +270,7 @@ From project root:
 
 g++ -std=c++11 src/*.cpp -I include -o doomsday.exe
 doomsday.exe
-
+```
 
 If you prefer a Makefile, run make after opening the repository (a simple Makefile target compiles src/*.cpp).
 
@@ -256,6 +280,7 @@ Enter date (day month year): 14 3 2032
 Output:
 14/3/2032 falls on a Sunday.
 
+
 Example 2 — Add days
 Enter date (day month year): 26 1 2025
 Do you want to perform further date analysis? (y/n): y
@@ -263,13 +288,17 @@ Enter number of days to add/subtract (use negative for past): 100
 Output:
 New date: 6/5/2025 (Tuesday)
 
+
 Example 3 — Difference between two dates (planned test function)
 
 A helper test program computes days between:
 
 Days between 01/01/2020 and 01/01/2021 = 366
 
+
+
 8. Implementation notes (algorithm & design decisions)
+
 Doomsday Algorithm (core idea)
 
 Each year has a “Doomsday” weekday.
@@ -300,6 +329,10 @@ Separation of concerns: doomsday.* contains algorithm and weekday mapping; date_
 
 The CLI (main.cpp) acts as a thin orchestration layer — ideal for later replacement by a GUI.
 
+
+
+
+
 9. Test plan & sample test cases
 
 Include tests/test_cases.cpp with assert-style checks you can run manually:
@@ -326,6 +359,8 @@ Subtract 30 days from 1/3/2020 → 31/1/2020
 
 Run tests by compiling tests/test_cases.cpp with the project sources and running the test binary. Optionally integrate a test framework.
 
+
+
 10. How to extend (ideas for final-year demo)
 
 GUI: Qt (C++) or Electron/front-end + backend wrapper.
@@ -340,6 +375,9 @@ Explain mode: Output step-by-step Doomsday computation for teaching (show a, b, 
 
 Interactive practice mode: Random date questions with scoring for exam-style practice.
 
+
+
+
 11. Contribution & coding standards
 
 Follow modern C++ style: meaningful names, clear header guards, modularization.
@@ -352,11 +390,16 @@ When contributing, include tests for new features and update docs/ as needed.
 
 Use Git branches for features and pull requests for review.
 
+
+
+
 12. License & acknowledgements
 
 License: MIT (copy the MIT text into LICENSE).
 
 Acknowledgements : John H. Conway for the Doomsday Algorithm; standard C++ library for conventional utilities.
+
+
 🧑‍💻 Author
 Developed by Abhinav Tiwari (B.Tech, Computer Science Engineering)
 Inspired by John Conway’s Mathematical Legacy and 2 of Marvel Comics Studio's Avengers movies
