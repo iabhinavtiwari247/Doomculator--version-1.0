@@ -1,0 +1,20 @@
+[
+{
+  "directory": "C:/Users/tiwar/OneDrive/Desktop/Doomculator/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/Doomculator.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\Doomculator.dir\\src\\date_utils.cpp.obj -c C:\\Users\\tiwar\\OneDrive\\Desktop\\Doomculator\\src\\date_utils.cpp",
+  "file": "C:/Users/tiwar/OneDrive/Desktop/Doomculator/src/date_utils.cpp",
+  "output": "CMakeFiles/Doomculator.dir/src/date_utils.cpp.obj"
+},
+{
+  "directory": "C:/Users/tiwar/OneDrive/Desktop/Doomculator/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/Doomculator.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\Doomculator.dir\\src\\doomsday.cpp.obj -c C:\\Users\\tiwar\\OneDrive\\Desktop\\Doomculator\\src\\doomsday.cpp",
+  "file": "C:/Users/tiwar/OneDrive/Desktop/Doomculator/src/doomsday.cpp",
+  "output": "CMakeFiles/Doomculator.dir/src/doomsday.cpp.obj"
+},
+{
+  "directory": "C:/Users/tiwar/OneDrive/Desktop/Doomculator/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/Doomculator.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\Doomculator.dir\\src\\main.cpp.obj -c C:\\Users\\tiwar\\OneDrive\\Desktop\\Doomculator\\src\\main.cpp",
+  "file": "C:/Users/tiwar/OneDrive/Desktop/Doomculator/src/main.cpp",
+  "output": "CMakeFiles/Doomculator.dir/src/main.cpp.obj"
+}
+]
