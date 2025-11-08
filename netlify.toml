@@ -1,0 +1,9 @@
+[build]
+  publish = "."
+  command = ""
+
+# Serve index.html for all routes (single page)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

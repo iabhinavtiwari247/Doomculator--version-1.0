@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Doomculator — Date Calculator</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Doomculator</h1>
+    <p class="lead">Calculate day-of-week, add/subtract days and find differences using the Doomsday algorithm.</p>
+
+    <section class="card">
+      <h2>Find day of week</h2>
+      <div class="row">
+        <input id="d1" type="number" placeholder="DD" min="1" max="31" />
+        <input id="m1" type="number" placeholder="MM" min="1" max="12" />
+        <input id="y1" type="number" placeholder="YYYY" />
+        <button id="btn-day">Get Day</button>
+      </div>
+      <div id="day-result" class="result"></div>
+    </section>
+
+    <section class="card">
+      <h2>Add / Subtract days</h2>
+      <div class="row">
+        <input id="d2" type="number" placeholder="DD" min="1" max="31" />
+        <input id="m2" type="number" placeholder="MM" min="1" max="12" />
+        <input id="y2" type="number" placeholder="YYYY" />
+        <input id="daysToAdd" type="number" placeholder="days (+/-)" />
+        <button id="btn-add">Compute</button>
+      </div>
+      <div id="add-result" class="result"></div>
+    </section>
+
+    <section class="card">
+      <h2>Days between two dates</h2>
+      <div class="row">
+        <input id="a1" type="number" placeholder="DD" min="1" max="31" />
+        <input id="a2" type="number" placeholder="MM" min="1" max="12" />
+        <input id="a3" type="number" placeholder="YYYY" />
+        <span class="sep">→</span>
+        <input id="b1" type="number" placeholder="DD" min="1" max="31" />
+        <input id="b2" type="number" placeholder="MM" min="1" max="12" />
+        <input id="b3" type="number" placeholder="YYYY" />
+        <button id="btn-diff">Calculate</button>
+      </div>
+      <div id="diff-result" class="result"></div>
+    </section>
+
+    <footer>
+      <small>Prepared for BTech project — uses Doomsday algorithm (Conway).</small>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
