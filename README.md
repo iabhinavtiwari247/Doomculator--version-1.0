@@ -27,7 +27,7 @@ From this anchor, it determines the weekday for any date.
 ## ⚙️ Project Structure
 
 Doomsday-Date-Predictor and Aptitude Solver/
-Doomsday-Date-Predictor/
+```Doomsday-Date-Predictor/
 ├── src/
 │   ├── main.cpp              # CLI and user interaction
 │   ├── doomsday.cpp          # Doomsday algorithm implementation
@@ -50,7 +50,7 @@ Doomsday-Date-Predictor/
 ├── Makefile
 ├── README.md                 # (this file)
 ├── LICENSE
-
+```
 
 
 ## PROJECT OVERVIEW
