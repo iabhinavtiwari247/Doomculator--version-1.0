@@ -25,6 +25,7 @@ From this anchor, it determines the weekday for any date.
 ---
 
 ## ⚙️ Project Structure
+
 Doomsday-Date-Predictor and Aptitude Solver/
 │
 ├── src/
