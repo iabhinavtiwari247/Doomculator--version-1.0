@@ -1,6 +1,6 @@
 # Doomculator --version 1.0
 # 🗓️ Doomsday : Date Predictor and Aptitude Solver
-#  An inspiration concept project from a Thanos's dialogue from movie Avengers : Infinity Wars and Avengers : Doomsday.
+#  An inspiration concept project from a Thanos's dialogue  from movie Avengers : Infinity Wars. 
 
 A practical C++ project that uses **John Conway’s Doomsday Algorithm** and **calendar mathematics** to determine the day of the week for any given date.  
 It also computes **date differences**, useful for aptitude exams like **CAT**, **GATE**, or campus placements.  
